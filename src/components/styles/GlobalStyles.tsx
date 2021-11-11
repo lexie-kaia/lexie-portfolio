@@ -5,6 +5,7 @@ export default function GlobalStyles() {
   return (
     <Global
       styles={css`
+        /* global styles */
         * {
           box-sizing: border-box;
           margin: 0;
@@ -32,17 +33,18 @@ export default function GlobalStyles() {
           background: var(--back-main);
           color: var(--text-prime);
           font-family: 'Spoqa Han Sans Neo', 'sans-serif';
-          line-height: 1;
           min-height: 100vh;
+          height: 100%;
         }
 
+        /* normalize */
         ul {
           list-style: none;
         }
 
         a {
           color: inherit;
-          text-decoration: none;
+          text-decoration: underline;
         }
 
         button {
@@ -70,6 +72,32 @@ export default function GlobalStyles() {
           &:focus {
             box-shadow: none;
           }
+        }
+
+        /* typo */
+        body {
+          font-size: 16px;
+          line-height: 24px;
+        }
+
+        h1 {
+          font-size: 32px;
+          line-height: 40px;
+        }
+
+        h2 {
+          font-size: 28px;
+          line-height: 36px;
+        }
+
+        h3 {
+          font-size: 22px;
+          line-height: 32px;
+        }
+
+        h4 {
+          font-size: 18px;
+          line-height: 28px;
         }
       `}
     />

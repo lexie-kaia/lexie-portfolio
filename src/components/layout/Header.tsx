@@ -1,14 +1,19 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import * as S from './HeaderStyles';
 
 export default function Header() {
   return (
-    <div>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About Me</Link>
-        <Link to="/projects">Projects</Link>
-      </nav>
-    </div>
+    <S.HeaderContainer>
+      <S.HeaderPageMargin>
+        <S.HeaderContent>
+          <div>Logo</div>
+          <S.Menu>
+            <S.MenuLink to="/">Home</S.MenuLink>
+            <S.MenuLink to="/about">About</S.MenuLink>
+            <S.MenuLink to="/projects">Projects</S.MenuLink>
+          </S.Menu>
+        </S.HeaderContent>
+      </S.HeaderPageMargin>
+    </S.HeaderContainer>
   );
 }
