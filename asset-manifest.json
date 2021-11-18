@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/lexie-portfolio/static/js/main.ff8c4713.chunk.js",
-    "main.js.map": "/lexie-portfolio/static/js/main.ff8c4713.chunk.js.map",
-    "runtime-main.js": "/lexie-portfolio/static/js/runtime-main.fcef3d13.js",
-    "runtime-main.js.map": "/lexie-portfolio/static/js/runtime-main.fcef3d13.js.map",
-    "static/js/2.ca0d6f9d.chunk.js": "/lexie-portfolio/static/js/2.ca0d6f9d.chunk.js",
-    "static/js/2.ca0d6f9d.chunk.js.map": "/lexie-portfolio/static/js/2.ca0d6f9d.chunk.js.map",
+    "main.js": "/lexie-portfolio/static/js/main.c3d27c2d.chunk.js",
+    "main.js.map": "/lexie-portfolio/static/js/main.c3d27c2d.chunk.js.map",
+    "runtime-main.js": "/lexie-portfolio/static/js/runtime-main.6f8338fc.js",
+    "runtime-main.js.map": "/lexie-portfolio/static/js/runtime-main.6f8338fc.js.map",
+    "static/js/2.773d1157.chunk.js": "/lexie-portfolio/static/js/2.773d1157.chunk.js",
+    "static/js/2.773d1157.chunk.js.map": "/lexie-portfolio/static/js/2.773d1157.chunk.js.map",
     "index.html": "/lexie-portfolio/index.html",
-    "static/js/2.ca0d6f9d.chunk.js.LICENSE.txt": "/lexie-portfolio/static/js/2.ca0d6f9d.chunk.js.LICENSE.txt"
+    "static/js/2.773d1157.chunk.js.LICENSE.txt": "/lexie-portfolio/static/js/2.773d1157.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.fcef3d13.js",
-    "static/js/2.ca0d6f9d.chunk.js",
-    "static/js/main.ff8c4713.chunk.js"
+    "static/js/runtime-main.6f8338fc.js",
+    "static/js/2.773d1157.chunk.js",
+    "static/js/main.c3d27c2d.chunk.js"
   ]
 }
