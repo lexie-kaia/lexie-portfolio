@@ -21,18 +21,23 @@ export const ProjectItem = styled.li`
 `;
 
 export const Thumbnail = styled.div`
-  margin-bottom: 1rem;
+  overflow: hidden;
+  margin-bottom: 2rem;
   width: 100%;
   height: 280px;
-  background: salmon;
+  border-radius: 0.5rem;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 `;
+
+export const ThumbnailLink = styled.a``;
 
 export const Title = styled.h2`
-  margin-bottom: 1.25rem;
-`;
-
-export const Summary = styled.div`
-  /* margin-bottom: 0.25rem; */
+  margin-bottom: 0.25rem;
 `;
 
 export const TechStackList = styled.ul`
@@ -50,6 +55,10 @@ export const TechStackItem = styled.li`
   &:not(:last-child) {
     margin-right: 0.75rem;
   }
+`;
+
+export const Summary = styled.div`
+  margin-bottom: 0.75rem;
 `;
 
 export const VersionList = styled.ul`
