@@ -13,6 +13,14 @@ export const HeaderContent = styled.div`
   height: 5rem;
 `;
 
+export const Logo = styled(Link)`
+  padding-top: 8px;
+  svg {
+    height: 23px;
+    fill: var(--text-prime);
+  }
+`;
+
 export const Menu = styled.nav`
   display: flex;
 `;

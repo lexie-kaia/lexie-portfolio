@@ -1,12 +1,16 @@
 import React from 'react';
 import * as S from './HeaderStyles';
+import LogoSvg from '../../assets/img/LogoSvg';
 
 export default function Header() {
   return (
     <S.HeaderContainer>
       <S.HeaderPageMargin>
         <S.HeaderContent>
-          <div>Logo</div>
+          <S.Logo to="/">
+            <LogoSvg />
+          </S.Logo>
+
           <S.Menu>
             <S.MenuLink to="/">Home</S.MenuLink>
             <S.MenuLink to="/about">About</S.MenuLink>
