@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { Link } from 'react-router-dom';
 
 export const About = styled.div`
   display: grid;
@@ -48,4 +49,12 @@ export const SkillItem = styled.li`
   height: 2rem;
   margin-right: 1rem;
   font-weight: 700;
+`;
+
+export const MenuLink = styled(Link)`
+  display: block;
+  margin-top: 1.75rem;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: uppercase;
 `;

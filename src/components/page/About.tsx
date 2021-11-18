@@ -16,8 +16,8 @@ export default function About() {
           </S.SectionParagraph>
           <S.SectionParagraph>
             그 시간 동안 같이 하는 사람들을 위해 <br />
-            그리고 찾아온 사람들을 위해 <br />이 비지니스가 '<strong>왜</strong>
-            ' 있어야 하는지 고민했습니다.
+            그리고 찾아온 사람들을 위해 <br />이 비지니스가 '<strong>왜</strong>' 있어야 하는지
+            고민했습니다.
           </S.SectionParagraph>
           <S.SectionParagraph>
             이런 경험이 있기 때문에
@@ -61,12 +61,19 @@ export default function About() {
             <S.SkillItem>Sass(SCSS)</S.SkillItem>
             <S.SkillItem>Webpack</S.SkillItem>
           </S.SkillList>
+          <S.SectionH2>Data Layer</S.SectionH2>
+          <S.SkillList>
+            <S.SkillItem>MySQL</S.SkillItem>
+            <S.SkillItem>MongoDB</S.SkillItem>
+            <S.SkillItem>GraphQl</S.SkillItem>
+          </S.SkillList>
           <S.SectionH2>Graphic Tools</S.SectionH2>
           <S.SkillList>
             <S.SkillItem>Adobe Suites</S.SkillItem>
             <S.SkillItem>Figma</S.SkillItem>
           </S.SkillList>
         </S.SectionBody>
+        <S.MenuLink to="/projects">projects &gt;</S.MenuLink>
       </S.RightCol>
     </S.About>
   );
